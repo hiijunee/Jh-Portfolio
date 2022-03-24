@@ -119,13 +119,13 @@ fontSizes.forEach((size) => {
     let fontSize;
     size.classList.toggle("active");
     if (size.classList.contains("font-size-1")) {
-      fontSize = "12px";
+      fontSize = "11px";
     } else if (size.classList.contains("font-size-2")) {
-      fontSize = "14px";
+      fontSize = "13px";
     } else if (size.classList.contains("font-size-3")) {
-      fontSize = "16px";
+      fontSize = "15px";
     } else if (size.classList.contains("font-size-4")) {
-      fontSize = "18px";
+      fontSize = "17px";
     }
     //change font size of the root html element
     document.querySelector("html").style.fontSize = fontSize;
